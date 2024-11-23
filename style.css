@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  background-image: url("https://imgs.search.brave.com/GIflcrTfJA4XE2uMMwItKeKA0pvhuL-KIgtRQ_8wfnY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMucmRjLm1vdmVh/d3MuY29tL2ltYWdl/cy9oZXJvL2RlZmF1/bHQvMjAyMS0xMS9q/cGcvaHAtaGVyby1k/ZXNrdG9wLmpwZw");
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 50px;
+  position: relative;
+  top: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 148px;
+  height: 41px;
+  margin-right: 10px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.phone-icon,
+.user-icon {
+  font-size: 18px;
+}
+
+.add-property-btn {
+  padding: 8px 16px;
+  border: 1px solid #000;
+  background-color: transparent;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+}
+
+.guide-button {
+  border: 1px solid #1f4b43;
+  background: transparent;
+  color: #1f4b43;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #1f4b43;
+}
+
+p {
+  font-size: 18px;
+  color: #2a2a2a;
+  margin: 10px 0 20px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  width: 70%;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-bar .search-button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: #f3f3f3;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.category {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.why-work-with-us {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.why-work-with-us .content h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.why-work-with-us .content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  text-align: center;
+  max-width: 250px;
+}
+
+.feature .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* third section */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #777;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  background-color: #f0f0f0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .details {
+  padding: 15px;
+}
+
+.card .details h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card .details p {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.card .details .price {
+  color: #e63946;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.see-all {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.see-all a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.see-all a:hover {
+  background-color: #e6b800;
+}
+
+.badge {
+  position: absolute;
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  top: 10px;
+  left: 10px;
+}
+
+.badge.featured {
+  background-color: #ff5733;
+  left: auto;
+  right: 10px;
+}
+
+.card-wrapper {
+  position: relative;
+}
+
+/* fourth section */
+.section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 20px;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  position: relative;
+  min-width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  /* if I don't want it to be able to slide i will remove the flex shrink */
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-overlay h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.card-overlay p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: white;
+}
+
+.indicators {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.indicator.active {
+  background-color: #333;
+}
